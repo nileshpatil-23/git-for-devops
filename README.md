@@ -7,3 +7,4 @@ Include:
 
 -commands
 -Tutorial
+-videos
