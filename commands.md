@@ -1,63 +1,81 @@
 # Git Commands Documentation
 
-Setting up Git
+## Setting up Git
 
-1.Initialize a Git Repository
-    git init
+### Initialize a Git Repository
+`git init`
 
-2.Configure Git User
-    git config --global user.name "Your Name"
-    git config --global user.email "your-email@example.com"
+### Configure Git User
+`git config --global user.name "Your Name"`  
+`git config --global user.email "your-email@example.com"`
 
-3.Working with Files
-    View Status of Changes
-    git status
+---
 
-4.Add Files to Staging Area
-    git add <filename>
-    git add .
+## Working with Files
 
-5.Remove a File from Staging Area
-    git rm --cached <filename>
+### View Status of Changes
+`git status`
 
-6.Commit Changes
-    git commit -m "commit message"
+### Add Files to Staging Area
+`git add <filename>`  
+`git add .`
 
-7.Branch Management
-    Create a New Branch
-    git checkout -b <branch-name>
+### Remove a File from Staging Area
+`git rm --cached <filename>`
 
-8.Switch Between Branches
-    git checkout <branch-name>
-    git switch <branch-name>
+### Commit Changes
+`git commit -m "commit message"`
 
-9.List All Branches
-    git branch
+---
 
-10.Logs and History
-    View Commit Logs
-    git log
+## Branch Management
 
-11.View Simplified Commit Logs
-    git log --oneline
+### Create a New Branch
+`git checkout -b <branch-name>`
 
-12.Merging and Deleting Branches
-    Merge a Branch
-    git merge <branch-name>
+### Switch Between Branches
+`git checkout <branch-name>`  
+`git switch <branch-name>`
 
-13.Delete a Branch
-    git branch -d <branch-name>
+### List All Branches
+`git branch`
 
-14.File Management
-    Delete a File
-    rm <filename>
+---
 
-15.Create a New File
-    touch <filename>
+## Logs and History
 
-16.Viewing and Cleaning Workspace
-    List All Files (Including Hidden)
-    ls -a
+### View Commit Logs
+`git log`
 
-17.Clear Terminal
-    clear
+### View Simplified Commit Logs
+`git log --oneline`
+
+---
+
+## Merging and Deleting Branches
+
+### Merge a Branch
+`git merge <branch-name>`
+
+### Delete a Branch
+`git branch -d <branch-name>`
+
+---
+
+## File Management
+
+### Delete a File
+`rm <filename>`
+
+### Create a New File
+`touch <filename>`
+
+---
+
+## Viewing and Cleaning Workspace
+
+### List All Files (Including Hidden)
+`ls -a`
+
+### Clear Terminal
+`clear`
